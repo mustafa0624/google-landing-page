@@ -1,0 +1,108 @@
+#header {
+    margin-left: 5px;
+}
+
+.header-left {
+    margin-left: 20px;
+    text-decoration: none;
+    color: rgb(104, 100, 100);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.header-right {
+    position: relative;
+    left: 75%;
+    margin-left: 20px;
+    text-decoration: none;
+    color: rgb(104, 100, 100);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+#appicon {
+    /* position: relative; */
+    top: 7px;
+    
+}
+#appicon-img{
+    width: 25px;
+    color: gray;
+}
+
+#sign-in {
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 7px;
+    width: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.google-logo {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.form {
+    text-align: center;
+    margin-top: 9px;
+    color: red;
+}
+
+#search-button {
+    padding: 8px;
+    padding-left: 45px;
+    width: 450px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    outline: none;
+    
+}
+
+#search-icon {
+    width: 28px;
+    position: absolute;
+    left: 662px;
+    top: 357px;
+    background: none;
+    z-index: 0;
+}
+
+#microphone {
+    width: 15px;
+    position: absolute;
+    right: 675px;
+    top: 359px;
+}
+
+.button {
+    margin: 25px;
+    text-decoration: none;
+}
+
+#google-search {
+    margin-right: 5px;
+    padding: 11px;
+    color: gray;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+
+
+#feeling {
+    padding: 11px;
+    border: none;
+}
+
+#lucky {
+    text-decoration: none;
+    color: black;
+    padding: 11px;
+    color: gray;
+    
+}
