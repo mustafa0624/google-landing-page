@@ -1,19 +1,38 @@
-#header {
-    margin-left: 5px;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header-1 {
+    margin: 20px 10px;
+    /* position: absolute; */
+    top: ;
+    /* width: 100%; */
+    
 }
 
 .header-left {
-    margin-left: 20px;
+    
+    margin:10px;
     text-decoration: none;
     color: rgb(104, 100, 100);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
 }
 
+
+#header-2{
+    position: absolute;
+    top :0;
+    right: 0;
+}
 .header-right {
-    position: relative;
-    left: 75%;
-    margin-left: 20px;
+    /* position:relative; */
+    
+    /* left: 1130px; */
+    /* float: right; */
+    
+    margin-left: 15px;
     text-decoration: none;
     color: rgb(104, 100, 100);
     font-family: Arial, Helvetica, sans-serif;
@@ -21,16 +40,17 @@
 }
 
 #appicon {
-    /* position: relative; */
+    position: relative;
     top: 7px;
-    
 }
-#appicon-img{
+
+#appicon-img {
     width: 25px;
     color: gray;
 }
 
 #sign-in {
+    margin:15px 20px 0px 15px;
     background-color: dodgerblue;
     color: white;
     border: none;
@@ -38,6 +58,7 @@
     padding: 7px;
     width: 65px;
     font-family: Arial, Helvetica, sans-serif;
+    ;
 }
 
 .google-logo {
@@ -52,29 +73,31 @@
 }
 
 #search-button {
+    margin-left: 30px;
     padding: 8px;
     padding-left: 45px;
     width: 450px;
     border-radius: 20px;
     border: 1px solid gray;
     outline: none;
-    
+    text-decoration: none;
 }
+
+
+
 
 #search-icon {
     width: 28px;
-    position: absolute;
-    left: 662px;
-    top: 357px;
-    background: none;
-    z-index: 0;
+    position: relative;
+    right: 440px;
+    top: 10px;
 }
 
 #microphone {
     width: 15px;
-    position: absolute;
-    right: 675px;
-    top: 359px;
+    position: relative;
+    right: 75px;
+    top: 5px;
 }
 
 .button {
@@ -92,8 +115,6 @@
     outline: none;
 }
 
-
-
 #feeling {
     padding: 11px;
     border: none;
@@ -104,5 +125,60 @@
     color: black;
     padding: 11px;
     color: gray;
+}
+
+.other-lang {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(149, 165, 166, 0.3);
+    height: 89px;
+    width: 100%;
     
+}
+
+.left-bottom {
+    margin-left: 20px;
+    text-decoration: none;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    ;
+}
+
+#right-bottom-position{
+    position: absolute;
+    right: 0;
+    bottom: 12px;
+}
+
+.right-bottom {
+    /* position: relative; */
+    /* left: 1290px; */
+    /* float: right; */
+    margin-right: 20px;
+    text-decoration: none;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#Turkey {
+    padding: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.footer-nav {
+    margin-top: 15px;
+}
+
+hr {
+    color: gray;
 }
