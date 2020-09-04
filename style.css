@@ -6,7 +6,7 @@
 #header-1 {
     margin: 20px 10px;
     /* position: absolute; */
-    top: ;
+    
     /* width: 100%; */
     
 }
@@ -18,6 +18,10 @@
     color: rgb(104, 100, 100);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
+}
+
+.header-left:hover{
+    text-decoration: underline;
 }
 
 
@@ -39,16 +43,27 @@
     font-size: 13px;
 }
 
+.header-right:hover{
+    text-decoration: underline;
+}
+
 #appicon {
     position: relative;
     top: 7px;
-}
-
-#appicon-img {
-    width: 25px;
     color: gray;
 }
 
+
+
+#appicon-img {
+    width: 25px;
+    color: rgba(149, 165, 166, 0.6);
+    opacity: 0.5;
+}
+
+#appicon-img:hover{
+    opacity: 1;
+}
 #sign-in {
     margin:15px 20px 0px 15px;
     background-color: dodgerblue;
@@ -58,7 +73,11 @@
     padding: 7px;
     width: 65px;
     font-family: Arial, Helvetica, sans-serif;
-    ;
+    
+}
+
+#sign-in:hover{
+    text-decoration: none;
 }
 
 .google-logo {
@@ -72,31 +91,47 @@
     color: red;
 }
 
-#search-button {
-    margin-left: 30px;
-    padding: 8px;
+#toolbar {
+    
+    
+    padding: 12px;
     padding-left: 45px;
-    width: 450px;
+    width: 600px;
     border-radius: 20px;
-    border: 1px solid gray;
+    border: 1px solid rgba(223, 230, 233,1.0);
     outline: none;
     text-decoration: none;
+    background-image: url(./images/magnifying_glass.jpg);
+    background-repeat: no-repeat ;
+    background-position-x: 18px;
+    background-position-y: 5px;
+    background-size: 30px;
+       
+
+}
+
+#toolbar::-webkit-search-cancel-button {
+    display: none;}
+
+#toolbar:hover{
+    box-shadow: 0px 0px 7px rgba(178, 190, 195,1.0);
+    
 }
 
 
 
-
+/* 
 #search-icon {
     width: 28px;
     position: relative;
     right: 440px;
     top: 10px;
-}
+} */
 
 #microphone {
     width: 15px;
     position: relative;
-    right: 75px;
+    right: 45px;
     top: 5px;
 }
 
@@ -115,9 +150,17 @@
     outline: none;
 }
 
+#google-search:hover{
+    box-shadow: 0px 0px 3px  rgba(0, 0, 0, 0.4);
+}
+
 #feeling {
     padding: 11px;
     border: none;
+}
+
+#feeling:hover{
+    box-shadow: 0px 0px 3px  rgba(0, 0, 0, 0.4);
 }
 
 #lucky {
@@ -135,7 +178,7 @@
 footer {
     position: absolute;
     bottom: 0;
-    background-color: rgba(149, 165, 166, 0.3);
+    background-color: rgba(149, 165, 166, 0.2);
     height: 89px;
     width: 100%;
     
@@ -150,11 +193,16 @@ footer {
     ;
 }
 
+.left-bottom:hover{
+    text-decoration: underline;
+}
+
 #right-bottom-position{
     position: absolute;
     right: 0;
     bottom: 12px;
 }
+
 
 .right-bottom {
     /* position: relative; */
@@ -165,14 +213,20 @@ footer {
     color: gray;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
+    
 }
 
+.right-bottom:hover{
+    text-decoration: underline;
+}
 #Turkey {
     padding: 12px;
     font-family: Arial, Helvetica, sans-serif;
     color: gray;
     margin-left: 10px;
     font-size: 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    
 }
 
 .footer-nav {
